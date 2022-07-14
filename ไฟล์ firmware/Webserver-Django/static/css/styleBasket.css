@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;300&display=swap');
+
+body {
+  font-family: Verdana, Geneva, Tahoma,'Prompt', sans-serif;
+  background-image: url("https://img.freepik.com/free-photo/healthy-ingredients-white-wooden-desk_23-2148194994.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#header {
+  position: sticky;
+  top: 0;
+  min-height: 80px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.837);
+}
+#header-img {
+  margin-left: 100px;
+  width: 5%;
+}
+
+#nav-bar {
+  overflow-x: hidden;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+#container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.837);
+}
+
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  padding-left: 40px;
+  font-size: 50px;
+  font-family: "Audiowide", 'Prompt';
+}
+.centerImage {
+  width: 100%;
+  max-height: 500px;
+  display: block;
+  object-fit: cover;
+  margin: auto;
+}
+
+.header-links {
+  margin-top: 10px;
+  display: flex;
+  margin-right: 50px;
+}
+
+.header-links ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 35px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.footer {
+  display: fixed;
+  padding-top: 30px;
+  font-family: "Audiowide", 'Prompt' , sans-serif;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.837);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  height: 30vh;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+}
+
+.cart-items {
+  margin: 30px auto;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: 'Prompt' , sans-serif;
+}
+
+.cart-items-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  border-bottom: 2px solid black;
+  font-family: sans-serif;
+}
+
+.cart-items-quantity {
+  justify-content: space-around;
+  margin-left: 10px;
+  font-family: 'Prompt' , sans-serif;
+}
+
+.cart-items-price {
+  justify-content: space-around;
+  margin-left: 10px;
+  font-family: 'Prompt' , sans-serif;
+}
+
+.cart-items-image {
+  width: 200px;
+  height: auto;
+  border: 2px solid black;
+  margin-right: 10px;
+  font-family: 'Prompt' , sans-serif;
+}
+
+.cart-items-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Prompt' , sans-serif;
+}
+
+.cart-items-name,
+.cart-items-add {
+  width: 25%;
+  margin-left: 10px;
+  font-family: 'Prompt' , sans-serif;
+}
+
+.cart-items-total-price-name {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 35%;
+  font-size: 20px;
+  font-weight: 700;
+  border-top: 2px solid black;
+  font-family: 'Prompt' , sans-serif;
+}
+
+.cart-items-total-price {
+  display: flex;
+  padding-left: 35%;
+  font-family: 'Prompt' , sans-serif;
+}
+
+
+
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -86px;
+  margin-left: -89px;
+}
+
+a {
+  -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  display: block;
+  margin: 0 50px;
+  margin-right: 0px;
+  margin-bottom: 0;
+
+  max-width: 150px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+a.button {
+  color: rgba(	255, 	193, 7, 0.9);
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0px 0px 2px inset;
+}
+
+a.button:hover {
+  color: rgba(255, 193, 7);
+  box-shadow: rgba(40, 167, 69, 0.7) 0 0px 0px 40px inset;
+}
+
+
+
+

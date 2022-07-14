@@ -1,0 +1,220 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("https://img.freepik.com/free-photo/healthy-ingredients-white-wooden-desk_23-2148194994.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#header {
+  position: sticky;
+  top: 0;
+  min-height: 80px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.837);
+}
+#header-img {
+  margin-left: 100px;
+  width: 5%;
+}
+
+#nav-bar {
+  overflow-x: hidden;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+#container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.837);
+}
+
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  padding-left: 40px;
+  font-size: 50px;
+  font-family: "Audiowide", sans-serif;
+}
+.centerImage {
+  width: 100%;
+  max-height: 500px;
+  display: block;
+  object-fit: cover;
+  margin: auto;
+}
+
+.header-links {
+  margin-top: 10px;
+  display: flex;
+  margin-right: 50px;
+}
+
+.header-links ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 35px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.btnbutton {
+  padding: 20px 20px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #10e2df;
+  text-decoration: none;
+}
+.btnbutton:hover {
+  background: rgb(29, 187, 61);
+}
+
+a {
+  text-decoration: none;
+}
+.nav-link {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.message-box {
+  margin: 1.5rem;
+  padding: 0.8rem;
+  text-align: center;
+}
+h1 {
+  font-size: 20px;
+}
+
+.message-box input {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+#features {
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#features .feature {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+#features .feature div {
+  padding: 40px;
+  margin-left: 120px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+#features .feature div p {
+  font-size: 25px;
+}
+#trailer {
+  margin: auto;
+  text-align: center;
+}
+
+#trailer #video {
+  width: 800px;
+  height: 600px;
+}
+
+#guide {
+  margin: auto;
+  text-align: center;
+}
+
+#guide #video {
+  width: 800px;
+  height: 600px;
+}
+
+#pricing {
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(192, 192, 192);
+  border-radius: 5px;
+}
+
+.price-box {
+  width: 500px;
+  height: 520px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 40px;
+  background-color: white;
+}
+
+.price-image {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  margin: auto;
+}
+.price-box h3 {
+  background-color: rgba(255, 10, 10, 0.542);
+  font-size: 20px;
+  padding: 10px;
+}
+
+.price-box p {
+  padding: 40px 40px 40px;
+}
+
+.price-box .btnbutton {
+  display: inline-block;
+  margin: 50px;
+}
+
+.footer {
+  display: fixed;
+  font-family: "Audiowide", sans-serif;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.837);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  height: 30vh;
+  font-size: 30px;
+  padding-top :30px; 
+  margin: auto;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+}
